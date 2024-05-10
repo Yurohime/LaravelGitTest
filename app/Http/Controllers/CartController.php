@@ -27,7 +27,7 @@ class CartController extends Controller
             
         }
 
-        return $data;
+        return collect($data);
     }
 
     private function dataPush(array $d)
